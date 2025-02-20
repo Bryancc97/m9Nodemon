@@ -1,0 +1,36 @@
+GET http://localhost:3000/notificacions
+
+###
+
+GET http://localhost:3000/notificacions/1
+
+###
+
+POST http://localhost:3000/notificacions
+Content-Type: application/json
+
+{
+  "id_usuari": "usuario3",
+  "tipus_accio": "acceso",
+  "detall": "acceso al sistema",
+  "data_notificacio": "20/02/2025"
+}
+
+
+
+
+###
+PUT http://localhost:3000/notificacions/1
+Content-Type: application/json
+
+{
+  "id_usuari": "usuario1",
+  "tipus_accio": "modificación",
+  "detall": "actualización de detalles",
+  "data_notificacio": "21/02/2025"
+}
+
+
+
+###
+DELETE http://localhost:3000/notificacions/2

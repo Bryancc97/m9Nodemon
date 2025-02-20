@@ -1,0 +1,21 @@
+{
+    "reservas": [
+      {
+        "id_reserva": 1,
+        "id_usuari": "usuario1",
+        "id_recurs": "recurso1",
+        "data_inici": "2025-02-01",
+        "data_final": "2025-02-05",
+        "estat_reserva": "confirmed"
+      },
+      {
+        "id_reserva": 2,
+        "id_usuari": "usuario2",
+        "id_recurs": "recurso2",
+        "data_inici": "2025-02-10",
+        "data_final": "2025-02-15",
+        "estat_reserva": "pending"
+      }
+    ]
+  }
+  

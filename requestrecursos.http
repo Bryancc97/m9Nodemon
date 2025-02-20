@@ -1,0 +1,39 @@
+GET http://localhost:3000/recursos
+
+###
+
+GET http://localhost:3000/recursos/2
+
+###
+
+POST http://localhost:3000/recursos HTTP/1.1
+Content-Type: application/json
+
+{
+    "name_recurso": "Charlie & the Chocolate Factory",
+    "tipus_recurso": "Book",
+    "estat": "available",
+    "capacitat": "1",
+    "especificacions_tecnicament": "None",
+    "ubicacio": "Library"
+}
+
+
+###
+PUT http://localhost:3000/recursos/3 HTTP/1.1
+Content-Type: application/json
+
+{
+  "name_recurso": "Charlie And The Chocolate Factory",
+  "tipus_recurso": "Book",
+  "estat": "available",
+  "capacitat": "1",
+  "especificacions_tecnicament": "None",
+  "ubicacio": "Library"
+}
+
+###
+DELETE http://localhost:3000/recursos/3 HTTP/1.1
+
+
+

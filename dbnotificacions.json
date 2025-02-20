@@ -1,0 +1,19 @@
+{
+    "notificacions": [
+      {
+        "id_notificacions": 1,
+        "id_usuari": "coche",
+        "tipus_accio": "coche",
+        "detall": "administrador",
+        "data_notificacio": "15/02/2025"
+      },
+      {
+        "id_notificacions": 2,
+        "id_usuari": "1",
+        "tipus_accio": "",
+        "detall": "",
+        "data_notificacio": "15/02/2025"
+      }
+    ]
+  }
+  

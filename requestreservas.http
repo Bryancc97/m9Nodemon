@@ -1,0 +1,37 @@
+GET http://localhost:3000/reservas
+
+###
+
+GET http://localhost:3000/reservas/1
+
+###
+
+POST http://localhost:3000/reservas
+Content-Type: application/json
+
+{
+  "id_usuari": "usuario3",
+  "id_recurs": "recurso3",
+  "data_inici": "2025-03-01",
+  "data_final": "2025-03-05",
+  "estat_reserva": "confirmed"
+}
+
+
+
+###
+PUT http://localhost:3000/reservas/1
+Content-Type: application/json
+
+{
+  "id_usuari": "usuario1",
+  "id_recurs": "recurso1",
+  "data_inici": "2025-02-01",
+  "data_final": "2025-02-06",
+  "estat_reserva": "confirmed"
+}
+
+
+###
+DELETE http://localhost:3000/reservas/2
+

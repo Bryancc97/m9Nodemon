@@ -1,0 +1,22 @@
+{
+    "recursos": [
+      {
+        "id_recurso": 1,
+        "name_recurso": "Coche",
+        "tipus_recurso": "Vehículo",
+        "estat": "Disponible",
+        "capacitat": "5",
+        "especificacions_tecnicament": "Motor V8",
+        "ubicacio": "Aparcament A"
+      },
+       {
+        "id_recurso": 2,
+        "name_recurso": "Coche",
+        "tipus_recurso": "Vehículo",
+        "estat": "Disponible",
+        "capacitat": "5",
+        "especificacions_tecnicament": "Motor V8",
+        "ubicacio": "Aparcament A"
+        }
+    ]
+}
