@@ -1,0 +1,16 @@
+{
+    "users": [
+        {
+            "id_usuari": 1,
+            "name": "Diego",
+            "correo_electronico": "diegoej@itb.cat",
+            "rol": "Cliente"
+        },
+        {
+            "id_usuari": 2,
+            "name": "Bryan",
+            "correo_electronico": "bryanej@itb.cat",
+            "rol": "Administrador"
+        }
+    ]
+}
